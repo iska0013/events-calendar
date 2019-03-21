@@ -1297,6 +1297,7 @@ a:focus, [tabindex="0"]:focus {
 
   a[href]::after {
     content: " (" attr(href) ")";
+    font-family: "Merriweather", serif;
   }
 
   abbr[title]::after {
